@@ -5,9 +5,10 @@ subject = input("Enter favorite subject: ")
 
 full_name = f"{first} {last}".title()
 
+print()
 print("Formatted Output: ")
 print("Name:", full_name)
-print("Name Code:", fullname.upper())
-print("Section:", section.upper()
+print("Name Code:", full_name.upper())
+print("Section:", section.upper())
 print("Favorite Subject:", subject.title())
 print("Character Count:", len(f"{first} {last}"))
